@@ -1,0 +1,134 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(0, 0, 0) 10%, blue);
+    background-repeat: no-repeat; 
+    
+    height: 500vw ;
+    min-height: 100vw;
+    padding-top: 100px;
+
+
+}
+
+#inputEl {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 8px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+#btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+   
+}
+#btn-tab{
+    font-size: 10px;
+    padding: 10px 20px;
+ 
+    background-color: gold;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 50px;
+    
+}
+
+#btn-tab:hover{
+    font-size: 10px;
+    padding: 10px 20px;
+    
+    background: linear-gradient(rgb(217, 255, 0) ,rgb(0, 255, 255),rgb(243, 66, 205) );
+    border-radius: 20px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+#saveEl {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: gold;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 15px;
+}
+#saveEl:hover {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(217, 255, 0) ,rgb(0, 255, 255),rgb(243, 66, 205) );
+    border-radius: 20px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#btn-delete {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: gold;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 15px;
+}
+#btn-delete:hover {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(217, 255, 0) ,rgb(0, 255, 255),rgb(243, 66, 205) );
+    border-radius: 20px;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+     
+    color: gold;
+    font-size: 15px;
+    
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 70px;
+   
+}
+h1:hover{
+
+    background: linear-gradient(rgb(217, 255, 0) ,rgb(0, 255, 255),rgb(243, 66, 205) );
+    -webkit-background-clip: text;
+     color: transparent;  
+    font-size: 15px;
+    
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 70px;
+   
+}
+
+#UlEl {
+    color: rgb(255, 0, 234);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+}
+
+a {
+    
+    color: gold;
+    font-family: 'Press Start 2P', cursive;
+}
+a:hover {
+    
+    background: linear-gradient(rgb(217, 255, 0) ,rgb(0, 255, 255),rgb(243, 66, 205) );
+    -webkit-background-clip: text;
+     color: transparent;  
+    font-family: 'Press Start 2P', cursive;
+}
